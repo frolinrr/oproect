@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{
+     height: 700px;
+     background: linear-gradient(to top left, powderblue, pink);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: none;
+      list-style: none;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1;
+    }
+
+    .header {
+      background:pink;
+      /* width: 500px; */
+      /* margin: 50px auto; */ 
+    }
+
+    .header .top {
+      overflow: hidden;
+      /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); */
+    }
+
+    /* https://developer.mozilla.org/ru/docs/Web/CSS/box-shadow */
+
+    .header .top .navLink {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      font-size: 130%;
+      float: left;
+      /* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); */
+    }
+
+    .header .nav {
+      display: none;
+    }
+
+    /* .header .nav ul {
+            padding: 10px 0px 10px 0px;
+          } */
+
+    .header .nav ul li a {
+      padding: 10px;
+      color: #fff;
+      font-size: 90%;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+      display: block;
+    }
+
+    .header .nav ul li a:hover {
+      background: rgba(10, 10, 10, 0.1);
+    }
+    .vid{
+      margin: 0 auto;
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="top">
+      <a href="#" class="navLink">&#9776;</a>
+    </div>
+
+    <div class="nav">
+      <ul>
+        <li><a href="hw.html">smile</a></li>
+        <li> <a href="hw32.html">первоквас реклама</a><li></li>
+        <li><a href="index (1).html">периметр</a></li>
+      </ul>
+    </div>
+  </div>
+  <center>
+  <video class="vid" width="400" height="300" controls="controls" poster="video/duel.jpg">
+    <source src="video.mkv" type='video/ogg; codecs="theora, vorbis"'>
+    <source src="video.mkv" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <source src="video.mkv" type='video/webm; codecs="vp8, vorbis"'>
+    Тег video не поддерживается вашим браузером. 
+    <a href="video.mkv">Скачайте видео</a>.
+   </video>
+  </center>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
